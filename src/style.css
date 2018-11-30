@@ -1,0 +1,223 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/00/78/a3/0078a32812228b6a47b4d4b14a397f46.jpg");
+    background-size: 100%;
+}
+
+    #contenedor1ero{
+        display:block;
+        line-height: 1.8;
+        text-align:center;
+    }
+
+    #contenedor2do{
+        display:none;
+        text-align: center;
+        line-height: 1.6;/*espacio entre líneas*/
+        color: rgb(62,3,40);
+         font-family:"Lucida Console";
+
+
+    }
+
+        h1 { 
+            color: white;
+            text-shadow: 5px 5px 6px rgb(210,50,106);/*ombra para el texto*/ 
+            font-family:"Lucida Console";
+            font-size:400%;
+            font-weight: bold;
+        }
+        h3 {
+            color: rgb(62,3,40);
+            font-family: "Lucida Console";
+            font-size:150%;
+            text-shadow: 2px 2px 4px rgb(210,50,106); /*sombra para el texto*/
+        }
+
+            hr { 
+                height: 2px;
+                background-color: white;
+                border:0;
+            }
+
+         .presentacion {  /*margenes del cuadrado*/
+        margin: 50px 0 50px 0;
+        }
+
+.intro { 
+    background-color:rgb(210,50,106);
+    border-radius: 25px;
+    opacity: 0.8;
+    color:white; 
+    font-family: "Lucida Console";
+    font-size: 105%;
+    margin: auto;
+    padding: 40px;
+    width: 50%; 
+}
+
+
+
+  #btnEmpecemos {
+        background-color:rgb(62,3,40) ;
+        border-radius: 35px;
+        border: 0;
+        color: white;
+        padding: 15px 35px;
+        font-family: "Lucida Console";
+        text-align: center;
+        font-size: 16px;
+        duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
+    }
+    #btnEmpecemos:hover { /*trascicion cambio de color para el boton*/
+        background-color:rgb(210,50,106);
+        color: white;
+    }
+
+ h2 {    
+	color:white;
+    font-family:"Lucida Console";
+    font-size:150%;
+    text-shadow: 2px 2px 4px rgb(238, 82, 160) ; /*sombra para el texto*/
+    }
+
+.pasos { 
+    background-color: rgb(210,50,106);
+    border-radius: 25px;
+    opacity: 0.8;
+    color:white; 
+    font-family: "Lucida Console";
+    text-align: left;
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+    }
+.Offset {
+
+    color: rgb(62,3,40); 
+    font-family:"Lucida Console";
+    font-size:100%;
+    font-weight: bold;
+
+    }
+
+#numerodecifrado {
+        background:rgb(250,240,239);
+        margin: auto;
+        padding: 8px 15px;
+        border:1.5px solid rgb(210,50,106);
+        border-radius: 18px;
+        font-weight: bold;
+   }
+
+  
+
+    #btncifrado, #btndecifrado {
+        background-color:rgb(210,50,106) ;
+        border:0;
+        border-radius: 15px;
+        color: white;
+        padding: 8px 22px;
+        font-family: "Lucida Console";
+        text-align: center;
+        font-size: 14px;
+        duration: 0.2s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 1px 1px 2px #000000; /*sombra para el texto*/
+
+    }
+    #btncifrado:hover , #btndecifrado:hover { /*trascicion cambio de color para el boton*/
+        background-color:rgb(62,3,40);
+        color: white;
+    }
+
+    #textocifrado, #cajadetexto {
+        background:rgb(250,240,239);
+        width:50%;
+        padding: 8px 22px;
+        height:100px;
+        margin: auto;
+        border: 3px solid rgb(62,3,40);
+        border-radius: 18px;
+        font-size: 14px;
+        font-weight: bold;
+   }
+
+    #otrocifrado{
+        background-color:rgb(210,50,106)  ;
+        border-radius: 25px;
+        border: 0;
+        color: white;
+        padding: 15px 20px;
+        font-family: "Lucida Console";
+        text-align: center;
+        font-size: 14px;
+        duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
+    }
+    #otrocifrado:hover { /*trascicion cambio de color para el boton*/
+        background-color:rgb(62,3,40);
+        color: white;
+    }
+
+
+form button {
+    margin: 10px;
+}
+    form div {
+        margin: 25px;
+    }
+
+
+@media screen and  (max-width:780px) {
+    .texto{
+    width: 100%;
+    }
+
+    body{
+	font-size: 14px;
+    background-size: cover;
+    color:white; 
+    }
+
+    button{
+    width: 50%;
+    text-align: center;
+    font-size: 20%;
+    }  
+
+    label{
+    width: 25%;
+    padding: 4px 11px;
+    } 
+
+.Offset, h3, h4{
+    color: white;
+    text-shadow: 1px 1px 2px #000000; /*sombra para el texto*/
+    font-size:115%;
+    }
+
+    h1{
+    font-size:300%;
+    }
+
+    #numerodecifrado {
+        
+        padding: 2%;
+        height:2%;
+     }
+
+   .intro { 
+    margin: auto;
+    }
+
+.pasos { 
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+    border: 0%;
+    }
+
+}
