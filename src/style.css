@@ -1,11 +1,11 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/00/78/a3/0078a32812228b6a47b4d4b14a397f46.jpg");
+    background-image: url("https://image.freepik.com/foto-gratis/adolescente-que-usa-telefono-inteligente-concepto-social-medios-adiccion-cama_53876-24930.jpg");
     background-size: 100%;
 }
 
     #contenedor1ero{
         display:block;
-        line-height: 1.8;
+        line-height: 1.6;
         text-align:center;
     }
 
@@ -22,8 +22,10 @@ body {
         h1 { 
             color: white;
             text-shadow: 5px 5px 6px rgb(210,50,106);/*ombra para el texto*/ 
-            font-family:"Lucida Console";
-            font-size:400%;
+            font-family: 'Pacifico', cursive;
+            font-size:600%;
+            letter-spacing: 2px;
+
             font-weight: bold;
         }
         h3 {
@@ -48,8 +50,10 @@ body {
     border-radius: 25px;
     opacity: 0.8;
     color:white; 
-    font-family: "Lucida Console";
-    font-size: 105%;
+    font-family: 'Chewy', cursive;
+    font-size: 155%;
+    letter-spacing: 2px;
+
     margin: auto;
     padding: 40px;
     width: 50%; 
@@ -57,7 +61,7 @@ body {
 
 
 
-  #btnEmpecemos {
+  #btnempecemos {
         background-color:rgb(62,3,40) ;
         border-radius: 35px;
         border: 0;
@@ -70,7 +74,7 @@ body {
         transition-duration: 0.4s;
         box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
     }
-    #btnEmpecemos:hover { /*trascicion cambio de color para el boton*/
+    #btnempecemos:hover { /*trascicion cambio de color para el boton*/
         background-color:rgb(210,50,106);
         color: white;
     }
