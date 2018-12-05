@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://image.freepik.com/foto-gratis/adolescente-que-usa-telefono-inteligente-concepto-social-medios-adiccion-cama_53876-24930.jpg");
+    background-image: url("https://image.freepik.com/foto-gratis/amigas-felices-mirando-pantalla-telefono-al-atardecer_1153-216.jpg");
     background-size: 100%;
 }
 
@@ -14,34 +14,27 @@ body {
         text-align: center;
         line-height: 1.6;/*espacio entre líneas*/
         color: rgb(62,3,40);
-         font-family:"Lucida Console";
-
-
+        font-family:"Lucida Console";
     }
 
         h1 { 
             color: white;
-            text-shadow: 5px 5px 6px rgb(210,50,106);/*ombra para el texto*/ 
+            text-shadow: 5px 5px 6px rgb(155,23,226);/*ombra para el texto*/ 
             font-family: 'Pacifico', cursive;
             font-size:600%;
             letter-spacing: 2px;
-
-            font-weight: bold;
+             font-weight: bold;
         }
+
         h3 {
-            color: rgb(62,3,40);
-            font-family: "Lucida Console";
-            font-size:150%;
-            text-shadow: 2px 2px 4px rgb(210,50,106); /*sombra para el texto*/
+            color: rgb(14,19,241);
+            font-family: 'Baloo', cursive;
+            font-size:200%;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px white; /*sombra para el texto*/
         }
 
-            hr { 
-                height: 2px;
-                background-color: white;
-                border:0;
-            }
-
-         .presentacion {  /*margenes del cuadrado*/
+        .presentacion {  /*margenes del cuadrado*/
         margin: 50px 0 50px 0;
         }
 
@@ -50,10 +43,9 @@ body {
     border-radius: 25px;
     opacity: 0.8;
     color:white; 
-    font-family: 'Chewy', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 155%;
-    letter-spacing: 2px;
-
+    letter-spacing: 1px;
     margin: auto;
     padding: 40px;
     width: 50%; 
@@ -61,15 +53,15 @@ body {
 
 
 
-  #btnempecemos {
-        background-color:rgb(62,3,40) ;
-        border-radius: 35px;
+    #btnempecemos {
+        background-color:rgb(155,23,226) ;
+        border-radius: 20px;
         border: 0;
         color: white;
         padding: 15px 35px;
-        font-family: "Lucida Console";
+        font-family: 'Handlee', cursive;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
         box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
@@ -80,10 +72,11 @@ body {
     }
 
  h2 {    
-	color:white;
-    font-family:"Lucida Console";
-    font-size:150%;
-    text-shadow: 2px 2px 4px rgb(238, 82, 160) ; /*sombra para el texto*/
+	color:white;  
+    font-family: 'Baloo', cursive;
+    font-size:250%;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(155,23,226) ; /*sombra para el texto*/
     }
 
 .pasos { 
@@ -91,48 +84,50 @@ body {
     border-radius: 25px;
     opacity: 0.8;
     color:white; 
-    font-family: "Lucida Console";
+    font-family: 'Handlee', cursive;
+    font-size: 125%;
+    letter-spacing: 1px;
     text-align: left;
     margin: auto;
     padding: 40px;
     width: 50%;
     }
-.Offset {
 
-    color: rgb(62,3,40); 
-    font-family:"Lucida Console";
-    font-size:100%;
-    font-weight: bold;
-
+label {
+    color: rgb(14,19,241); 
+    font-family: 'Baloo', cursive;
+    font-size:150%;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px white ; /*sombra para el texto*/
     }
 
-#numerodecifrado {
+    #numerodecifrado {
         background:rgb(250,240,239);
         margin: auto;
         padding: 8px 15px;
-        border:1.5px solid rgb(210,50,106);
+        border:1.5px solid rgb(155,23,226);
         border-radius: 18px;
         font-weight: bold;
-   }
+    }
 
   
 
     #btncifrado, #btndecifrado {
         background-color:rgb(210,50,106) ;
         border:0;
-        border-radius: 15px;
+        border-radius: 20px;
         color: white;
         padding: 8px 22px;
-        font-family: "Lucida Console";
+        font-family: 'Handlee', cursive;
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         duration: 0.2s; /* Safari */
         transition-duration: 0.4s;
         box-shadow: 1px 1px 2px #000000; /*sombra para el texto*/
 
     }
     #btncifrado:hover , #btndecifrado:hover { /*trascicion cambio de color para el boton*/
-        background-color:rgb(62,3,40);
+        background-color:rgb(155,23,226);
         color: white;
     }
 
@@ -142,27 +137,27 @@ body {
         padding: 8px 22px;
         height:100px;
         margin: auto;
-        border: 3px solid rgb(62,3,40);
+        border: 3px solid rgb(155,23,226);
         border-radius: 18px;
         font-size: 14px;
         font-weight: bold;
    }
 
     #otrocifrado{
-        background-color:rgb(210,50,106)  ;
-        border-radius: 25px;
+        background-color:rgb(155,23,226)  ;
+        border-radius:20px;
         border: 0;
         color: white;
         padding: 15px 20px;
-        font-family: "Lucida Console";
+         font-family: 'Handlee', cursive;
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
         box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
     }
     #otrocifrado:hover { /*trascicion cambio de color para el boton*/
-        background-color:rgb(62,3,40);
+        background-color:rgb(210,50,106);
         color: white;
     }
 
@@ -170,58 +165,62 @@ body {
 form button {
     margin: 10px;
 }
-    form div {
-        margin: 25px;
-    }
 
+form div {
+    margin: 25px;
+}
 
-@media screen and  (max-width:780px) {
-    .texto{
-    width: 100%;
-    }
-
-    body{
-	font-size: 14px;
-    background-size: cover;
-    color:white; 
-    }
-
-    button{
-    width: 50%;
+.footer{
+    margin: 10px;
+    color: black; 
+    font-family: 'Handlee', cursive;
+    font-size: 100%;
     text-align: center;
-    font-size: 20%;
-    }  
+}
 
-    label{
-    width: 25%;
-    padding: 4px 11px;
-    } 
 
-.Offset, h3, h4{
-    color: white;
-    text-shadow: 1px 1px 2px #000000; /*sombra para el texto*/
-    font-size:115%;
+    @media (max-width: 1200px) {
+        .contenedor1ero,.contenedor2do {
+             width: 700px;
+        }
+
+        header {
+             width: auto;
+            height: 150px;
+         }
+
+        body{
+            font-size: 14px;
+            background-size: cover;
+            color:white; 
+        }
+
+        h1 {
+            font-size: 100px;       
+        }
+
+        .intro { 
+            margin: auto;
+        }
+
+        .footer{
+        color: black; 
     }
 
-    h1{
-    font-size:300%;
+    /*smartphone*/
+@media (max-width: 720px) {
+     .contenedor1ero,.contenedor2do {
+        width: 300px;
     }
 
-    #numerodecifrado {
-        
-        padding: 2%;
-        height:2%;
-     }
-
-   .intro { 
-    margin: auto;
+    header {
+        width: auto;
+        height: 100px;
     }
-
-.pasos { 
-    margin: auto;
-    padding: 40px;
-    width: 50%;
-    border: 0%;
+    h1 {
+    font-size: 70px;        
     }
+    .footer{
+        color:black; 
 
 }
