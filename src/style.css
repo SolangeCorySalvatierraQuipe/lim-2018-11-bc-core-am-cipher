@@ -51,8 +51,6 @@ body {
     width: 50%; 
 }
 
-
-
     #btnempecemos {
         background-color:rgb(155,23,226) ;
         border-radius: 20px;
@@ -66,6 +64,7 @@ body {
         transition-duration: 0.4s;
         box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
     }
+
     #btnempecemos:hover { /*trascicion cambio de color para el boton*/
         background-color:rgb(210,50,106);
         color: white;
@@ -110,8 +109,6 @@ label {
         font-weight: bold;
     }
 
-  
-
     #btncifrado, #btndecifrado {
         background-color:rgb(210,50,106) ;
         border:0;
@@ -126,6 +123,7 @@ label {
         box-shadow: 1px 1px 2px #000000; /*sombra para el texto*/
 
     }
+
     #btncifrado:hover , #btndecifrado:hover { /*trascicion cambio de color para el boton*/
         background-color:rgb(155,23,226);
         color: white;
@@ -156,6 +154,7 @@ label {
         transition-duration: 0.4s;
         box-shadow: 2px 2px 4px #000000; /*sombra para el texto*/
     }
+
     #otrocifrado:hover { /*trascicion cambio de color para el boton*/
         background-color:rgb(210,50,106);
         color: white;
@@ -177,7 +176,6 @@ form div {
     font-size: 100%;
     text-align: center;
 }
-
 
     @media (max-width: 1200px) {
         .contenedor1ero,.contenedor2do {
